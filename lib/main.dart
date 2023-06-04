@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/101/Scaffold_learn.dart';
 import 'package:flutter_application_2/101/container_sized_box_learn.dart';
 import 'package:flutter_application_2/101/text_learn.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'instgram',
       theme: ThemeData.dark(),
-      home: const ContainerSizedBoxLearn(),
+      home: const SccaffoldLearnView(),
     );
   }
 }
